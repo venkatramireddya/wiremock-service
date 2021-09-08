@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/download/help/pdf2"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "USCIS_Public_Charge_Statement.pdf"
+    }
+}

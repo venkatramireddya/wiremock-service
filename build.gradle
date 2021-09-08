@@ -1,0 +1,38 @@
+defaultTasks 'clean', 'run'
+
+group = 'com.ttech'
+version = '0.0.1-SNAPSHOT'
+
+
+task deleteBuildDir(type: Delete) {
+  delete 'build'
+}
+
+task copyWireMock(type:Copy) {
+		from 'wiremock-standalone-2.26.3.jar'
+		into 'build/deploy/'
+}
+
+task copyMappings(type:Copy) {
+		from 'mappings'
+		into 'build/deploy/mappings'
+}
+
+task copyAllFiles(type:Copy) {
+		from '__files'
+		into 'build/deploy/__files'
+}
+
+task copyFiles() {
+		dependsOn copyWireMock, copyMappings, copyAllFiles
+}
+
+task clean() {
+		dependsOn deleteBuildDir
+}
+task test() {
+}
+
+task build() {
+		dependsOn copyFiles
+}
