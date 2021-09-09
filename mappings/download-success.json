@@ -1,0 +1,19 @@
+{
+	"priority": 1,
+    "request": {
+        "method": "GET",
+        "urlPath": "/download/help/pdf2",
+        "headers": {
+            
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Set-Cookie": ["session_id=91837492837", "split_test_group=B"],
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "USCIS_Public_Charge_Statement.pdf"
+    }
+}

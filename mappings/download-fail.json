@@ -1,0 +1,21 @@
+{
+	"priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/download/help/pdf2/2",
+        "basicAuth" : {
+            "username" : "user",
+            "password" : "pass"
+        }
+    },
+    "response": {
+        "status": 500,
+        "headers": {
+            "Content-Type": "application/json",
+            "Set-Cookie": ["session_id=91837492837", "split_test_group=B"],
+            "Cache-Control": "no-cache",
+            "Accept-Language": "en_US"
+        },
+        "bodyFileName": "downlaod-error-500.json"
+    }
+}
