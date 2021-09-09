@@ -1,8 +1,8 @@
 {
-	"priority": 1,
+	"priority": 2,
     "request": {
         "method": "GET",
-        "url": "/download/help/pdf2/2",
+        "urlPath": "/download/help/pdf2",
         "basicAuth" : {
             "username" : "user",
             "password" : "pass"
