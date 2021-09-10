@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "type": "EventType",
+    "actor": {
+      "id": 1,
+      "login": "actor-login",
+      "avatar_url": "http://avatar_url.com"
+    },
+    "repo": {
+      "id": 1,
+      "name": "repo-name",
+      "url": "http://github.com"
+    },
+    "created_at": "12-12-2021"
+  }
+]
