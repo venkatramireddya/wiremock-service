@@ -1,0 +1,8 @@
+{
+  "username": "test",
+  "email": "test@test1.com",
+  "roles": [
+    "ROLE_USER"
+  ],
+  "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNjMxMjc3MjAzLCJleHAiOjE2MzEzNjM2MDMsImF1ZCI6IltST0xFX1VTRVJdIn0.gKHizgQpWE0q72GN-nNyQHznvLTq3pazhDrTSrJSD7cAKyIw_5o3kizKf10idwCUEkX6vZ6PTFDIitlfN7fUrw"
+}

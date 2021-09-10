@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/authenticate",
+        "bodyPatterns" : [ {
+     		"equalToJson" : "{'username': 'test','password': 'password'}"
+    	}]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+            },
+        "bodyFileName": "jwt-token.json"
+    }
+}

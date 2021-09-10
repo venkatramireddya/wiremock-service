@@ -1,10 +1,20 @@
 {
-    "request": {
-        "method": "GET",
-        "url": "/api/mytest"
-    },
-    "response": {
-        "status": 200,
-        "body": "More content\n"
-    }
+	"request": {
+		"method": "GET",
+		"url": "/api/mytest",
+		"headers": {
+			"Authorization": {
+				"matches": "^Bearer(.*)"
+			}
+		},
+		"cookies": {
+			"test": {
+				"matches": "^(.*) ([A-Za-z][0-9]*+)$"
+			}
+		}
+	},
+	"response": {
+		"status": 200,
+		"body": "More content\n"
+	}
 }
