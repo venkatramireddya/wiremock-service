@@ -6,7 +6,19 @@
         "basicAuth" : {
             "username" : "user",
             "password" : "pass"
-        }
+        },
+		"headers": {
+			"Authorization": {
+				"matches": "^Bearer(.*)"
+			}
+		},
+		"cookies" : { 
+			"test": {
+				"matches": "^(.*) ([A-Za-z][0-9]*+)$"
+			}
+		}
+		
+		
     },
     "response": {
         "status": 500,

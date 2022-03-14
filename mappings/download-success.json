@@ -2,17 +2,8 @@
 	"priority": 1,
 	"request": {
 		"method": "GET",
-		"urlPath": "/download/help/pdf2",
-		"headers": {
-			"Authorization": {
-				"matches": "^Bearer(.*)"
-			}
-		},
-		"cookies" : { 
-			"test": {
-				"matches": "^(.*) ([A-Za-z][0-9]*+)$"
-			}
-		}
+		"urlPath": "/download/help/pdf2"
+		
 	},
 	"response": {
 		"status": 200,
